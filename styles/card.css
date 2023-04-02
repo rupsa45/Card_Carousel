@@ -1,0 +1,23 @@
+.card{
+    display:flex;
+    height:280px;
+    width:280px;
+    background-color: #fe9df1;;
+    border-radius:10px;
+    box-shadow: -1rem 0 3rem #0003;
+    position: relative;
+    transition: 0.4s ease-out; 
+    left:0px;   
+}
+.card:not(:first-child){
+    margin-left: -50px;
+}
+.card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+}
+.card:hover~ .card{
+    position:relative;
+    left: 100px;
+    transition: 0.4s ease-out;
+}

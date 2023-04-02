@@ -1,0 +1,11 @@
+body{
+    background-color:#ffadf4;
+    font-family: 'Open Sans', sans-serif;
+}
+.title{
+    color:#666666;
+    font-weight:500;
+    position:absolute;
+    left: 20px;
+    top:15px;
+}
